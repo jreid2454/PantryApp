@@ -1,0 +1,51 @@
+.pic{
+    background-image: url(./topPic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px){
+    .title{
+        width: 100% !important;
+    }
+
+    .addMeal{
+        width: 40vw !important;
+        font-size: 2vh !important;
+    }
+
+    .mealName{
+        height: 3vh !important;
+        font-size: 2vh !important ;
+        width: 50vw !important;
+    }
+
+    .subItemLi{
+        width: 50vw !important;
+        font-size: 2vh !important;
+    }
+
+    .ingredient{
+        width: 30vw !important;
+        font-size: 2vh !important;
+    }
+
+    .cost{
+        width: 10vw !important;
+        font-size: 2vh !important;
+    }
+
+    .containerUl{
+        width: 90% !important;
+        padding: 0 !important;
+    }
+
+    .total{
+        width: 15vw !important;
+    }
+
+}
